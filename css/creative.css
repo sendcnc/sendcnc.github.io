@@ -310,6 +310,10 @@ header.masthead {
     color: white;
     border-color: #e13612;
     background-color: #eb3812; }
+  .btn-primary:visited {
+    color: white;
+    border-color: #e13612;
+    background-color: #eb3812; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
