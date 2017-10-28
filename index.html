@@ -23,6 +23,7 @@
 		<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
 		<!-- Custom styles for this template -->
+		<link href="css/animate.css" rel="stylesheet">
 		<link href="css/creative.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 
@@ -82,8 +83,8 @@
 						<h2 class="section-heading text-white">Pre-Register this year for discounted pricing!</h2>
 						<hr class="light">
 						<!-- Display the countdown timer in an element -->
-						<h1 class="text-white" id="demo"></h1>
-						<p class="text-white">We're just months away from launch. Pre-register before year end to claim discounted pricing for 2018. Simply enter your email address below to pre-register. You may opt out at any time.</p>
+						<h1 class="text-white animated fadeIn wow" id="demo"></h1>
+						<p class="text-white">We're just months away from launch. Pre-register before year end to claim discounted pricing for 2018. Simply enter your information below to pre-register. You may opt out at any time.</p>
 
 						<form action="https://sendcnc.us17.list-manage.com/subscribe/post?u=31a1d8fbf129614ccebdb0ce4&amp;id=7501ff6aad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							<div class="form-group col-lg-10 mx-auto">
@@ -123,28 +124,28 @@
 				<div class="row">
 					<div class="col-lg-3 col-md-6 text-center">
 						<div class="service-box">
-							<i class="fa fa-4x fa-cloud-upload text-primary sr-icons"></i>
+							<i class="fa fa-4x fa-cloud-upload text-primary animated fadeIn wow"></i>
 							<h3>Seamless Uploads</h3>
 							<p class="text-muted">Seamlessly accept drawing and 3D model uploads.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 text-center">
 						<div class="service-box">
-							<i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+							<i class="fa fa-4x fa-paper-plane text-primary animated fadeIn wow"  data-wow-delay="250ms"></i>
 							<h3>Easy Quotes</h3>
 							<p class="text-muted">Price parts and send quotes with a few simple clicks.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 text-center">
 						<div class="service-box">
-							<i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
+							<i class="fa fa-4x fa-desktop text-primary animated fadeIn wow" data-wow-delay="500ms"></i>
 							<h3>Organized Jobs</h3>
 							<p class="text-muted">Manage and automate workflows.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 text-center">
 						<div class="service-box">
-							<i class="fa fa-4x fa-credit-card text-primary sr-icons"></i>
+							<i class="fa fa-4x fa-credit-card text-primary animated fadeIn wow" data-wow-delay="750ms"></i>
 							<h3>Accept Payment</h3>
 							<p class="text-muted">Send invoices and process credit cards online.</p>
 						</div>
@@ -253,7 +254,7 @@
 		<div class="call-to-action bg-dark">
 			<div class="container text-center">
 				<h2>Questions? Don't hesitate to contact us!</h2>
-				<a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/"><i class="fa fa-envelope-o"></i> info@sendcnc.com</a>
+				<a class="btn btn-default btn-xl animated fadeIn wow" href="http://startbootstrap.com/template-overviews/creative/"><i class="fa fa-envelope-o"></i> info@sendcnc.com</a>
 			</div>
 		</div>
 
@@ -292,6 +293,11 @@
 
 		<!-- Custom scripts for this template -->
 		<script src="js/creative.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+              
+		</script>
 
 		<script>
 		// Set the date we're counting down to
