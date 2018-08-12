@@ -53,4 +53,15 @@ header.masthead .header-content .header-content-inner p {
 #pricing p.price small{
   font-size:25%;
 }
+#pricing .cnc-starter .card-header,
+#pricing .cnc-starter .card-link {
+  background-color: #11a9c1;
+}
+#pricing .cnc-basic .card-header, 
+#pricing .cnc-basic .card-link {
+  background-color: #2c3e4c;
+}
 
+#pricing .cnc-enterprize .card-link {
+  background-color: #333333;
+}
