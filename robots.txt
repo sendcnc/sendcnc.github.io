@@ -1,0 +1,5 @@
+Disallow: /privacy.html
+Disallow: /tos.html
+
+Noindex: /privacy.html
+Noindex: /tos.html
